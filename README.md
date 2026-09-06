@@ -29,6 +29,12 @@ do posto, o setup versionado no repositório tem:
   roteados automaticamente pelo tipo de pergunta
 - **Travas automáticas (hooks):** escrita em dado real negada, `push --force` negado, commit com
   fórmula sem golden master pergunta antes — 131 casos de teste cobrindo os próprios hooks
+- **Grafo de conhecimento do código:** o repositório inteiro (TypeScript, SQL, políticas de RLS)
+  indexado como grafo por AST, reconstruído a cada commit por hook; o agente localiza no grafo e
+  confirma no arquivo antes de responder — grafo é hipótese, nunca resposta
+- **Loop engineering:** o ciclo propõe → trava verifica → teste decide, fechado por automação —
+  hook `PreToolUse` que bloqueia antes do erro, hook `PostToolUse` que cobra o golden master na
+  hora da edição, roteamento de pergunta para o agente certo sem intervenção manual
 - **Skills de domínio versionadas:** regra de negócio, ETL da planilha, critério de "pronto" — o
   agente lê a regra do repositório, não da memória
 - Resultado: um monorepo com três apps e 3.296 asserções contra dado real, entregue e em produção
@@ -124,6 +130,9 @@ Em andamento. O repositório com os estudos e as análises entra aqui em breve.
 **🤖 Desenvolvimento com IA**
 - Claude Code (subagentes, hooks, skills versionadas)
 - Orquestração de agentes
+- Grafo de conhecimento do código (AST, graphify)
+- Loop engineering (hooks de verificação, gates automáticos)
+- Engenharia de contexto (memória versionada por agente)
 - LLM em produção (OCR com Gemini Vision)
 
 **🏗️ Arquitetura & Boas Práticas**
