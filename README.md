@@ -72,7 +72,7 @@ Em andamento. O repositório com os estudos e as análises entra aqui em breve.
 
 | | |
 |---|---|
-| Linguagens | TypeScript, PHP, Python, SQL |
+| Linguagens | TypeScript, PHP, Python, SQL, Go (iniciando) |
 | Frontend | React 19, Vite, Tailwind, PWA (Workbox) |
 | Mobile | React Native, Expo (EAS Build/Update), push notifications |
 | Backend | Laravel, Node.js, Bun, FastAPI |
