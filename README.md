@@ -35,6 +35,13 @@ do posto, o setup versionado no repositório tem:
 - **Loop engineering:** o ciclo propõe → trava verifica → teste decide, fechado por automação —
   hook `PreToolUse` que bloqueia antes do erro, hook `PostToolUse` que cobra o golden master na
   hora da edição, roteamento de pergunta para o agente certo sem intervenção manual
+- **Engenharia de contexto:** o que cada agente vê é decidido no repositório — `CLAUDE.md` como
+  fonte de verdade do processo, skill de domínio injetada no subagente pelo frontmatter, memória
+  por agente versionada e datada, e um hook que força delegação quando a thread principal começa a
+  ler demais. Contexto pequeno e certo, não grande e genérico
+- **MCP (Model Context Protocol):** servidores do Supabase e do GitHub ligados ao agente; o do banco
+  roda em `--read-only` com as ferramentas de mutação (`apply_migration`, deploy, branches) em lista
+  de negação — DDL contra produção só por script versionado, nunca pelo chat
 - **Skills de domínio versionadas:** regra de negócio, ETL da planilha, critério de "pronto" — o
   agente lê a regra do repositório, não da memória
 - Resultado: um monorepo com três apps e 3.296 asserções contra dado real, entregue e em produção
@@ -132,7 +139,8 @@ Em andamento. O repositório com os estudos e as análises entra aqui em breve.
 - Orquestração de agentes
 - Grafo de conhecimento do código (AST, graphify)
 - Loop engineering (hooks de verificação, gates automáticos)
-- Engenharia de contexto (memória versionada por agente)
+- Engenharia de contexto (CLAUDE.md, skills, memória versionada por agente)
+- MCP — Model Context Protocol (Supabase, GitHub; servidores em modo somente leitura)
 - LLM em produção (OCR com Gemini Vision)
 
 **🏗️ Arquitetura & Boas Práticas**
