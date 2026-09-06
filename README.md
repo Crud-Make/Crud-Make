@@ -68,19 +68,72 @@ Python (FastAPI) + React, Docker. Categorização de lançamentos com IA.
 
 Em andamento. O repositório com os estudos e as análises entra aqui em breve.
 
-## Stack
+## Tecnologias & Ferramentas
 
-| | |
-|---|---|
-| Linguagens | TypeScript, PHP, Python, SQL, Go (iniciando) |
-| Frontend | React 19, Vite, Tailwind, PWA (Workbox) |
-| Mobile | React Native, Expo (EAS Build/Update), push notifications |
-| Backend | Laravel, Node.js, Bun, FastAPI |
-| Banco | PostgreSQL (RLS, triggers, migrações versionadas), MySQL |
-| Testes | Vitest, PHPUnit, golden master contra dado real |
-| DevOps | Docker, Docker Compose, CI com GitHub Actions, deploy em Vercel, Linux (Arch), shell script |
-| IA no processo | Claude Code (subagentes, hooks, skills), orquestração de agentes, Gemini Vision em produção |
-| Estudando | Ciência de dados (Python, pandas, estatística), Go |
+**Backend**
+- PHP / Laravel
+- Node.js / Bun
+- TypeScript
+- Python / FastAPI
+- REST API
+- Autenticação JWT e PKCE
+- Funções serverless (Edge Functions)
+- Notificações push (Web Push)
+- Integrações com APIs externas (Gemini Vision, Google APIs)
+
+**Frontend**
+- TypeScript / JavaScript
+- React 19
+- Vite
+- Tailwind CSS
+- PWA (Workbox, offline, instalável)
+- HTML5 / CSS3
+
+**Mobile**
+- React Native
+- Expo (EAS Build / EAS Update)
+- Push notifications
+
+**Banco de Dados**
+- PostgreSQL
+- MySQL
+- SQLite
+- Row-Level Security (RLS)
+- Triggers e auditoria
+- Migrações versionadas
+- Modelagem relacional
+
+**DevOps & Ferramentas**
+- Docker / Docker Compose
+- Git / GitHub
+- CI/CD (GitHub Actions)
+- Vercel
+- Linux (Arch)
+- Shell script
+
+**Testes & Qualidade**
+- Vitest
+- PHPUnit
+- Golden master contra dado real
+- ESLint / TypeScript strict
+
+**Desenvolvimento com IA**
+- Claude Code (subagentes, hooks, skills versionadas)
+- Orquestração de agentes
+- LLM em produção (OCR com Gemini Vision)
+
+**Arquitetura & Boas Práticas**
+- Monorepo com pacote de domínio compartilhado
+- Feature-Sliced Design
+- MVC
+- Clean Code / SOLID
+- Data Mapper na fronteira banco ↔ UI
+- Modelagem de dados a partir da regra real do negócio
+- ETL auditável
+
+**Estudando**
+- Ciência de dados (Python, pandas, estatística)
+- Go
 
 ## Contato
 
