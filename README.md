@@ -1,4 +1,4 @@
-# Thygo Carvalho
+# 👋 Olá, eu sou Thygo Carvalho
 
 Desenvolvedor fullstack. Construo sistemas de gestão para negócios pequenos que ainda rodam em
 planilha — do levantamento da regra com o dono até o app no celular do funcionário.
@@ -7,7 +7,7 @@ Meu forte é **TypeScript** — React na web, **React Native** no mobile — e *
 back, sobre **PostgreSQL**.
 Estou me formando em ciência de dados com Python e começando a estudar Go.
 
-## O que eu faço
+## 💻 O que eu faço
 
 - Modelagem do domínio a partir da planilha real do cliente, com a fórmula original reproduzida e
   testada linha a linha contra o dado histórico
@@ -19,7 +19,7 @@ Estou me formando em ciência de dados com Python e começando a estudar Go.
 - Containerização com Docker e Docker Compose: ambiente de desenvolvimento reproduzível e deploy em
   um comando
 
-## Desenvolvimento com IA
+## 🤖 Desenvolvimento com IA
 
 Uso Claude Code como parte do processo de engenharia, não como gerador de código solto. No projeto
 do posto, o setup versionado no repositório tem:
@@ -34,9 +34,9 @@ do posto, o setup versionado no repositório tem:
 - Resultado: um monorepo com três apps e 3.296 asserções contra dado real, entregue e em produção
   por uma pessoa
 
-## Projetos
+## 📌 Projetos
 
-### Posto Providência — caixa e gestão de posto de combustível
+### ⛽ Posto Providência — caixa e gestão de posto de combustível
 
 Em uso diário desde agosto/2026. Os frentistas fecham o caixa pelo celular; o painel concilia contra
 o encerrante das bombas; o dono acompanha o mês.
@@ -50,27 +50,27 @@ o encerrante das bombas; o dono acompanha o mês.
 
 Repositório privado — contém o financeiro real do cliente.
 
-### [ProvControl](https://github.com/Crud-Make/Provcontrol) — controle de caixa multi-posto
+### 🧾 [ProvControl](https://github.com/Crud-Make/Provcontrol) — controle de caixa multi-posto
 
 PHP 8.5 / Laravel 13. Leituras e vendas do concentrador, valores conferidos por frentista,
 pagamentos eletrônicos e taxas, fechamento diário, isolamento por posto.
 
-### [posto-mobile](https://github.com/Crud-Make/posto-mobile) — app do frentista
+### 📱 [posto-mobile](https://github.com/Crud-Make/posto-mobile) — app do frentista
 
 React Native / Expo. Abertura e fechamento de turno, venda por bico, fiado, validação de voucher,
 push, atualização por EAS Update.
 
-### [axxy-finance](https://github.com/Crud-Make/axxy-finance) — finanças pessoais
+### 💰 [axxy-finance](https://github.com/Crud-Make/axxy-finance) — finanças pessoais
 
 Python (FastAPI) + React, Docker. Categorização de lançamentos com IA.
 
-### Ciência de dados
+### 📊 Ciência de dados
 
 Em andamento. O repositório com os estudos e as análises entra aqui em breve.
 
-## Tecnologias & Ferramentas
+## 🚀 Tecnologias & Ferramentas
 
-**Backend**
+**⚙️ Backend**
 - PHP / Laravel
 - Node.js / Bun
 - NestJS
@@ -82,7 +82,7 @@ Em andamento. O repositório com os estudos e as análises entra aqui em breve.
 - Notificações push (Web Push)
 - Integrações com APIs externas (Gemini Vision, Google APIs)
 
-**Frontend**
+**🎨 Frontend**
 - TypeScript / JavaScript
 - React 19
 - Next.js
@@ -91,12 +91,12 @@ Em andamento. O repositório com os estudos e as análises entra aqui em breve.
 - PWA (Workbox, offline, instalável)
 - HTML5 / CSS3
 
-**Mobile**
+**📱 Mobile**
 - React Native
 - Expo (EAS Build / EAS Update)
 - Push notifications
 
-**Banco de Dados**
+**🗄️ Banco de Dados**
 - PostgreSQL
 - MySQL
 - SQLite
@@ -105,7 +105,7 @@ Em andamento. O repositório com os estudos e as análises entra aqui em breve.
 - Migrações versionadas
 - Modelagem relacional
 
-**DevOps & Ferramentas**
+**🐳 DevOps & Ferramentas**
 - Docker / Docker Compose
 - Git / GitHub
 - CI/CD (GitHub Actions)
@@ -113,18 +113,18 @@ Em andamento. O repositório com os estudos e as análises entra aqui em breve.
 - Linux (Arch)
 - Shell script
 
-**Testes & Qualidade**
+**✅ Testes & Qualidade**
 - Vitest
 - PHPUnit
 - Golden master contra dado real
 - ESLint / TypeScript strict
 
-**Desenvolvimento com IA**
+**🤖 Desenvolvimento com IA**
 - Claude Code (subagentes, hooks, skills versionadas)
 - Orquestração de agentes
 - LLM em produção (OCR com Gemini Vision)
 
-**Arquitetura & Boas Práticas**
+**🏗️ Arquitetura & Boas Práticas**
 - Monorepo com pacote de domínio compartilhado
 - Feature-Sliced Design
 - MVC
@@ -133,10 +133,10 @@ Em andamento. O repositório com os estudos e as análises entra aqui em breve.
 - Modelagem de dados a partir da regra real do negócio
 - ETL auditável
 
-**Estudando**
+**📚 Estudando**
 - Ciência de dados (Python, pandas, estatística)
 - Go
 
-## Contato
+## 📫 Contato
 
-GitHub: [Crud-Make](https://github.com/Crud-Make) · LinkedIn: em breve
+🐙 GitHub: [Crud-Make](https://github.com/Crud-Make) · 💼 LinkedIn: em breve
