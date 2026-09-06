@@ -73,6 +73,7 @@ Em andamento. O repositório com os estudos e as análises entra aqui em breve.
 **Backend**
 - PHP / Laravel
 - Node.js / Bun
+- NestJS
 - TypeScript
 - Python / FastAPI
 - REST API
@@ -84,6 +85,7 @@ Em andamento. O repositório com os estudos e as análises entra aqui em breve.
 **Frontend**
 - TypeScript / JavaScript
 - React 19
+- Next.js
 - Vite
 - Tailwind CSS
 - PWA (Workbox, offline, instalável)
