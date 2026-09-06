@@ -48,7 +48,9 @@ o encerrante das bombas; o dono acompanha o mês.
 - Fechamento por turno e frentista, custo médio do mês, rateio de despesa por litro, lucro por
   produto, estoque teórico × régua
 
-Repositório privado — contém o financeiro real do cliente.
+🌐 Sistema em produção: https://posto-providencia.vercel.app (acesso por login — o dono e os frentistas)
+
+Repositório privado — contém o financeiro real do cliente. Demonstração sob pedido.
 
 ### 🧾 [ProvControl](https://github.com/Crud-Make/Provcontrol) — controle de caixa multi-posto
 
