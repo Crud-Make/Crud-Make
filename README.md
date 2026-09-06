@@ -3,7 +3,8 @@
 Desenvolvedor fullstack. Construo sistemas de gestão para negócios pequenos que ainda rodam em
 planilha — do levantamento da regra com o dono até o app no celular do funcionário.
 
-Meu forte é **TypeScript** no front (React) e **Laravel, Node e Bun** no back, sobre **PostgreSQL**.
+Meu forte é **TypeScript** — React na web, **React Native** no mobile — e **Laravel, Node e Bun** no
+back, sobre **PostgreSQL**.
 Estou me formando em ciência de dados com Python e começando a estudar Go.
 
 ## O que eu faço
@@ -72,7 +73,8 @@ Em andamento. O repositório com os estudos e as análises entra aqui em breve.
 | | |
 |---|---|
 | Linguagens | TypeScript, PHP, Python, SQL |
-| Frontend | React 19, Vite, Tailwind, PWA (Workbox), React Native/Expo |
+| Frontend | React 19, Vite, Tailwind, PWA (Workbox) |
+| Mobile | React Native, Expo (EAS Build/Update), push notifications |
 | Backend | Laravel, Node.js, Bun, FastAPI |
 | Banco | PostgreSQL (RLS, triggers, migrações versionadas), MySQL |
 | Testes | Vitest, PHPUnit, golden master contra dado real |
