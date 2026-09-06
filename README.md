@@ -15,6 +15,23 @@ Estou me formando em ciência de dados com Python e começando a estudar Go.
 - Monorepo com pacote de domínio compartilhado entre painel web e PWAs
 - PWA instalável, com notificação push e uso offline; React Native/Expo quando precisa de loja
 - Integração de LLM em fluxo de produção quando resolve um problema concreto (OCR de relatório por foto)
+- Containerização com Docker e Docker Compose: ambiente de desenvolvimento reproduzível e deploy em
+  um comando
+
+## Desenvolvimento com IA
+
+Uso Claude Code como parte do processo de engenharia, não como gerador de código solto. No projeto
+do posto, o setup versionado no repositório tem:
+
+- **Orquestração de agentes:** seis subagentes especializados por domínio (grafo do código,
+  planilha, RLS, conformidade, esquema, histórico do git), cada um com memória própria versionada e
+  roteados automaticamente pelo tipo de pergunta
+- **Travas automáticas (hooks):** escrita em dado real negada, `push --force` negado, commit com
+  fórmula sem golden master pergunta antes — 131 casos de teste cobrindo os próprios hooks
+- **Skills de domínio versionadas:** regra de negócio, ETL da planilha, critério de "pronto" — o
+  agente lê a regra do repositório, não da memória
+- Resultado: um monorepo com três apps e 3.296 asserções contra dado real, entregue e em produção
+  por uma pessoa
 
 ## Projetos
 
@@ -59,7 +76,8 @@ Em andamento. O repositório com os estudos e as análises entra aqui em breve.
 | Backend | Laravel, Node.js, Bun, FastAPI |
 | Banco | PostgreSQL (RLS, triggers, migrações versionadas), MySQL |
 | Testes | Vitest, PHPUnit, golden master contra dado real |
-| DevOps | Docker / Compose, CI com GitHub Actions, deploy em Vercel, Linux (Arch), shell script |
+| DevOps | Docker, Docker Compose, CI com GitHub Actions, deploy em Vercel, Linux (Arch), shell script |
+| IA no processo | Claude Code (subagentes, hooks, skills), orquestração de agentes, Gemini Vision em produção |
 | Estudando | Ciência de dados (Python, pandas, estatística), Go |
 
 ## Contato
