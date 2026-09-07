@@ -14,7 +14,8 @@ O que eu entrego:
   Native — a fórmula existe uma vez e roda igual em todos
 
 TypeScript de ponta a ponta (React, React Native, NestJS/Bun) sobre PostgreSQL. Python (FastAPI)
-quando o projeto pede. Claude Code como parte do processo de engenharia, com travas automáticas
+quando o projeto pede. Pós-graduado em Gestão Financeira e Controladoria: sei o que uma falta de
+caixa significa para quem paga a conta, e é isso que o código precisa fechar. Claude Code como parte do processo de engenharia, com travas automáticas
 que impedem o agente de errar em produção.
 
 ---
@@ -81,7 +82,12 @@ FastAPI + React, Docker. Categorização de lançamentos com IA.
 | **DevOps** | Docker Compose, GitHub Actions, Vercel, Linux (Arch) |
 | **IA** | Claude Code (subagentes, hooks, skills), MCP, grafo de código por AST, LLM em produção |
 
-**Estudando:** ciência de dados (Python, pandas, estatística) e Go.
+## 🎓 Formação
+
+- **Pós-graduação em Gestão Financeira e Controladoria** — é daí que vem a leitura de DRE,
+  custo e conciliação que o sistema do posto implementa
+- **Bacharelado em Ciência de Dados** — em conclusão (Estácio)
+- **Bacharelado em Gestão Pública** — concluído
 
 ---
 
