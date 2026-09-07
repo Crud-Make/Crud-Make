@@ -3,8 +3,8 @@
 Desenvolvedor fullstack. Construo sistemas de gestão para negócios pequenos que ainda rodam em
 planilha — do levantamento da regra com o dono até o app no celular do funcionário.
 
-Meu forte é **TypeScript** — React na web, **React Native** no mobile — e **Node, Bun e Python
-(FastAPI)** no back, sobre **PostgreSQL**.
+Meu forte é **TypeScript** — React na web, **React Native** no mobile — e **Node (NestJS), Bun e
+Python (FastAPI)** no back, sobre **PostgreSQL**.
 Estou me formando em ciência de dados com Python e começando a estudar Go.
 
 ## 💻 O que eu faço
@@ -12,7 +12,7 @@ Estou me formando em ciência de dados com Python e começando a estudar Go.
 - Modelagem do domínio a partir da planilha real do cliente, com a fórmula original reproduzida e
   testada linha a linha contra o dado histórico
 - PostgreSQL com RLS em todas as tabelas, migrações versionadas, auditoria por trigger
-- APIs e regra de negócio em TypeScript (Node/Bun) ou Python (FastAPI), conforme o projeto
+- APIs e regra de negócio em TypeScript (NestJS, Node/Bun) ou Python (FastAPI), conforme o projeto
 - Monorepo com pacote de domínio compartilhado entre painel web e PWAs
 - PWA instalável, com notificação push e uso offline; React Native/Expo quando precisa de loja
 - Integração de LLM em fluxo de produção quando resolve um problema concreto (OCR de relatório por foto)
