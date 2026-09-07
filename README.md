@@ -7,15 +7,15 @@ depois.
 O que eu entrego:
 
 - **Integração mobile ↔ painel:** o que entra pelo celular já está no painel, sem sincronização
-  manual, sem planilha intermediária
+  manual, 
 - **Cruzamento de dados:** fontes diferentes (operação, financeiro, estoque, leitura de
   equipamento) convergindo num modelo só, com regra de negócio testada contra o histórico real
 - **Um domínio, vários apps:** pacote compartilhado entre painel administrativo, PWA e React
   Native — a fórmula existe uma vez e roda igual em todos
 
 TypeScript de ponta a ponta (React, React Native, NestJS/Bun) sobre PostgreSQL. Python (FastAPI)
-quando o projeto pede. Pós-graduado em Gestão Financeira e Controladoria: sei o que uma falta de
-caixa significa para quem paga a conta, e é isso que o código precisa fechar. Claude Code como parte do processo de engenharia, com travas automáticas
+quando o projeto pede. Pós-graduado em Gestão Financeira e Controladoria:
+. Claude Code como parte do processo de engenharia, com travas automáticas
 que impedem o agente de errar em produção.
 
 ---
