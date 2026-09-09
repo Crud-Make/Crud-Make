@@ -13,8 +13,8 @@ O que eu entrego:
 - **Um domínio, vários apps:** pacote compartilhado entre painel administrativo, PWA e React
   Native — a fórmula existe uma vez e roda igual em todos
 
-TypeScript de ponta a ponta (React, React Native, NestJS/Bun) sobre PostgreSQL. Python (FastAPI)
-quando o projeto pede. Pós-graduado em Gestão Financeira e Controladoria:
+React e React Native no front; Laravel ou TypeScript (Bun, Supabase) no backend, sempre sobre
+PostgreSQL. Python quando o projeto pede. Pós-graduado em Gestão Financeira e Controladoria:
 . Claude Code como parte do processo de engenharia, com travas automáticas
 que impedem o agente de errar em produção.
 
@@ -75,7 +75,7 @@ FastAPI + React, Docker. Categorização de lançamentos com IA.
 
 | | |
 |---|---|
-| **Backend** | TypeScript (NestJS, Bun), Python (FastAPI), PHP (Laravel), PostgreSQL com RLS, Edge Functions, Web Push |
+| **Backend** | PHP (Laravel), TypeScript (Bun, Supabase), Python (FastAPI), PostgreSQL com RLS, Edge Functions, Web Push |
 | **Frontend** | React 19, Next.js, Vite, Tailwind, PWA (Workbox, offline) |
 | **Mobile** | React Native, Expo (EAS Build/Update) |
 | **Testes** | Vitest, PHPUnit, golden master contra dado real |
